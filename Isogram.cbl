@@ -32,6 +32,7 @@
 
            PERFORM UNTIL ANS = 'N'
                DISPLAY "Enter a phrase to check if it's an isogram: "
+               WITH NO ADVANCING
                ACCEPT INPUTPHRASE
 
       *    Itère à travers chaque caractère de la phrase jusqu'à ce que 
