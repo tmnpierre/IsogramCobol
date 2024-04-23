@@ -6,6 +6,7 @@
 
        IDENTIFICATION DIVISION.
        PROGRAM-ID. ISOGRAM.
+       AUTHOR. Pierre.
 
        ENVIRONMENT DIVISION.
 
