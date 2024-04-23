@@ -14,19 +14,19 @@
        WORKING-STORAGE SECTION.
 
       *    Définit la variable pour stocker la phrase entrée
-       01  INPUTPHRASE PIC X(100).      
+       01  INPUTPHRASE     PIC X(100).      
       *    Position du caractère actuel dans la phrase
-       01  CHARPOSITION PIC 9(03) COMP.
+       01  CHARPOSITION    PIC 9(03) COMP.
       *    Compteur de lettres
-       01  LETTERCOUNT PIC 9(03) COMP VALUE 0.  
+       01  LETTERCOUNT     PIC 9(03) COMP VALUE 0.  
       *    Tableau pour stocker les occurrences de chaque lettre
-       01  ALPHABETOCCURS PIC 9(03) OCCURS 26 VALUE 0.
+       01  ALPHABETOCCURS  PIC 9(03) OCCURS 26 VALUE 0.
       *    Indique si la phrase est un isogramme  
-       01  ISISOGRAM PIC X(03) VALUE 'YES'. 
+       01  ISISOGRAM       PIC X(03) VALUE 'YES'. 
       *    Valeur ASCII du caractère actuel
-       01  CHAR-VAL PIC 9(03) COMP. 
+       01  CHAR-VAL        PIC 9(03) COMP. 
       *    Pour stocker la réponse de l'utilisateur (Oui/Non)
-       01  ANS PIC X(01).   
+       01  ANS             PIC X(01).   
 
        PROCEDURE DIVISION.
 
