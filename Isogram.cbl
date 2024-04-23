@@ -64,11 +64,10 @@
       *    Affiche le résultat
                DISPLAY "Is the phrase an isogram? " ISISOGRAM
 
-               DISPLAY "Do you want to check another phrase? (Y/N): "
+               DISPLAY "Do you want to check another phrase? (Y/n): "
                WITH NO ADVANCING
                ACCEPT ANS
                MOVE FUNCTION UPPER-CASE(ANS) TO ANS
            END-PERFORM
 
            STOP RUN.
-
