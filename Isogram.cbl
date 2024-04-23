@@ -57,5 +57,5 @@
            END-PERFORM
 
       *    Affiche le résultat
-           DISPLAY "Is the phrase an isogram? ", ISISOGRAM
+           DISPLAY "Is the phrase an isogram? " ISISOGRAM
            STOP RUN.
